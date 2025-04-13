@@ -19,4 +19,5 @@ Go to http://$IP:631
 
 Add Printer: HP LaserJet 1018 (HP LaserJet1018)
 Driver: HP LaserJet 1020 Foomatic/foo2zjs-z1 (recommended) (grayscale)
+Sharing: (checked) Share This Printer
 "
