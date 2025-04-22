@@ -15,9 +15,19 @@ IP=$(hostname -I | awk '{print $1}')
 
 # Wyświetlenie instrukcji dla użytkownika
 echo "
+Optional:
+	Set static ip
+	```
+	$ nano /etc/network/interfaces
+	allow-hotplug ens18
+	iface ens18 inet static
+	  address 192.168.0.111
+	  netmask 255.255.255.0
+	  gateway 192.168.0.1
+	```
 Go to http://$IP:631
-
-Add Printer: HP LaserJet 1018 (HP LaserJet1018)
-Driver: HP LaserJet 1020 Foomatic/foo2zjs-z1 (recommended) (grayscale)
+Administration
+Find New Printers
+Driver: HP LaserJet 1018 Foomatic/foo2zjs-z1 (recommended) (grayscale)
 Sharing: (checked) Share This Printer
 "
